@@ -81,7 +81,7 @@ function setup(){
             coronaGroup.destroyEach();
             man.visible=false;
             restart.visible=true;
-            text("You are no longer safe, please isolate yourself for a week,Please press space",windowWidth/2,windowHeight/2-100);
+            text("You are no longer safe, please isolate yourself for a week,Please click on restart to start game",windowWidth/2,windowHeight/2-100);
            ; 
         }
         if(man.isTouching(house))  {
@@ -91,7 +91,7 @@ function setup(){
             coronaGroup.destroyEach();
             man.visible=false;
             restart.visible=true;
-            text("You have reached your destination, you are safe now,please press space",windowWidth/2,windowHeight/2-100);
+            text("You have reached your destination, you are safe now,Please click on restart to start game",windowWidth/2,windowHeight/2-100);
            
         }
         
